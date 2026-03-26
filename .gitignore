@@ -1,0 +1,69 @@
+# ==================== Build ====================
+**/build/
+!src/**/build/
+
+# ==================== Gradle ====================
+.gradle
+.kotlin
+local.properties
+
+# ==================== IDE ====================
+.idea
+*.iml
+captures
+
+# ==================== macOS ====================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ==================== Android ====================
+.externalNativeBuild
+.cxx
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# ==================== Signing ====================
+*.jks
+*.keystore
+*.p12
+*.pem
+*.pfx
+signing.properties
+
+# ==================== Secrets ====================
+.env
+.env.*
+*.env
+secrets.properties
+
+# ==================== iOS / Xcode ====================
+xcuserdata
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+Pods/
+
+# ==================== Node ====================
+node_modules/
+
+# ==================== Logs ====================
+*.log
+
+# ==================== Misc ====================
+*.tmp
+*.swp
+*~
